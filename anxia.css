@@ -1,0 +1,11 @@
+p {
+    border: 1px solid rgb(241, 105, 105);
+    height: 0px;
+    /* display: none; */
+    overflow: hidden;
+}
+
+1 2 3 4 5 input:checked~p {
+    /* display: block; */
+    overflow: visible;
+}
